@@ -12,7 +12,6 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +23,6 @@ jobs:
 
   lint:
     name: Lint
-    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +34,6 @@ jobs:
 
   # test:
   #   name: Test
-  #   runs-on: self-hosted
 
   #   steps:
   #     - uses: actions/checkout@v2
