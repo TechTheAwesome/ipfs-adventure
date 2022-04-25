@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +24,7 @@ jobs:
 
   lint:
     name: Lint
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -36,7 +36,7 @@ jobs:
 
   # test:
   #   name: Test
-  #   runs-on: self-hosted
+  #   runs-on: ubuntu-latest
 
   #   steps:
   #     - uses: actions/checkout@v2
