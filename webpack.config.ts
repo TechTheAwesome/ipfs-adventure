@@ -39,7 +39,8 @@ export default function (): Configuration {
 			  template: join(__dirname, 'src', 'index.html'),
 			  filename: 'index.html',
 			  inject: 'body'
-      })
+      }),
+      new MiniCssExtractPlugin()
 		  ]
   }
 }
