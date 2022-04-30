@@ -16,4 +16,5 @@ plugins:
   - react
   - '@typescript-eslint'
 rules: {
+  indent: ["warn", 2]
 }
